@@ -18,7 +18,7 @@ let display = document.getElementById("display");
         function calculate() {
             try {
                 lastResult = eval(display.value);
-                display.value = lastResult || ""; 
+                display.value = lastResult ; 
             } catch (error) {
                 display.value = "Error";
                 lastResult = null;
